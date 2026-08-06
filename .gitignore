@@ -1,0 +1,17 @@
+# Firmware build products
+*.bin
+*.elf
+*.map
+firmware-build/
+
+# Android intermediate output and local signing material
+android-dashboard/build/
+android-dashboard/debug.keystore
+android-dashboard/output/*.idsig
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
